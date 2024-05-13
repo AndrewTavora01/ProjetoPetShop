@@ -1,0 +1,115 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin-top: 0px;
+    display: flex;
+}
+
+.img-logo {
+    width: 100px;
+    
+}
+
+.link-header {
+    margin-top: 45px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 25px;
+    color: rgb(93, 163, 23);
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.875px;
+    margin-right: 32px;
+    text-decoration: none;
+}
+
+.img-animais {
+    height: 700px;
+    width: 800px;
+    margin-left: 500px;
+    margin-top: 0;
+    margin-bottom: 150px;
+}
+
+main {
+    margin-top: 200px;
+}
+
+.container-principal {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 82px;
+    color: rgb(93, 163, 23);
+}
+
+p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.container-secundario{
+    margin-left: 30px;
+}
+
+h2 {
+    color:rgb(93, 163, 23);
+}
+
+li {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+iframe {
+    height: 500px;
+    width: 900px;
+    text-align: center;
+}
+
+.link-whatsapp img {
+    height: 100px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    
+}
+ 
+@media screen and (max-width: 900px) {
+
+    .img-animais{
+        height: 300px;
+        margin-left: 15px;
+        width: 400px;
+    }
+
+    h1{
+        font-size: 25px;
+        line-height: 40px;
+        margin-right: 20px;
+    }
+
+    p{
+        margin-right: 15px;
+    }
+
+    iframe{
+        height: 500px;
+        width: 450px;
+        text-align: center;
+        border: none;
+    }
+    
+}  
